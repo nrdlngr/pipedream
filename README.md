@@ -8,7 +8,17 @@ Experimental CLI to integrate AWS Code Pipeline with ECS/ECR.
 4. Activate the virtualenv: `$ . venv/bin/activate`
 5. Run the setup utility: `$ pip install --editable .`
 6. View the help: `$ pipedream --help`
-7. Run the command with some options and an arbitrary GitHub repo name: `$ pipedream nrdlngr/pipedream`
+7. Run the command with some options and an arbitrary GitHub repo name:
+```
+$ pipedream nrdlngr/pipedream
+
+Here is your Pipeline configuration:
+
+Profile: default
+Versioning: latest
+AWS Account ID: 130757420319
+GitHub Repo Name: nrdlngr/pipedream
+```
 
 Note that this program doesn't really do anything useful yet except testing for AWS creds and printing the AWS account ID. 
 
